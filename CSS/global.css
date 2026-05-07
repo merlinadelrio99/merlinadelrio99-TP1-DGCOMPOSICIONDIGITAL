@@ -69,5 +69,5 @@ a {
     text-decoration: none;
 }
 
-/*.card:hover {
+.card:hover {
   transform: scale(1.05); /* efecto al pasar el mouse */
