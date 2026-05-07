@@ -28,8 +28,14 @@ nav {
         border: 1px solid #3c6a69;
         border-radius: 15px;
         box-shadow: 0px 1px 1px 1px #173632c2;
-    }
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+nav a:hover {
+    transform: translateY(-4px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
 
 body {
     background-color: rgb(5, 134, 110);
@@ -68,6 +74,3 @@ svg {
 a {
     text-decoration: none;
 }
-
-.card:hover {
-  transform: scale(1.05); /* efecto al pasar el mouse */
