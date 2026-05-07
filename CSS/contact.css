@@ -1,0 +1,46 @@
+h1 {
+    display: none;
+}
+
+
+
+.faq input {
+    display: none;
+}
+
+.respuesta {
+    display: none;
+}
+
+.faq input:checked + label + .respuesta {
+    display: block;
+}
+
+.faq label{
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(211, 238, 234);
+}
+
+.form label{
+    color: white;
+    font-weight: normal;
+    
+}
+
+.faq label:hover {
+    color: rgb(80, 132, 122);
+}
+
+.form{
+   width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.form input,
+.form select{
+    width: 150px;
+    margin: 0 auto;
+}

@@ -1,0 +1,55 @@
+h1 {
+  display: none;
+}
+
+h2 {
+  color:
+    rgb(98, 147, 146);
+}
+
+.ny {
+  color: rgb(220, 5, 145);
+  ;
+}
+
+.columnas {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tarjeta {
+  flex: 1;
+  max-width: 9000px;
+}
+
+
+.MAPA {
+  display: grid;
+  grid-template-columns: 4;
+  grid-template-rows: 8;
+  grid-template-areas: "" "" "" "";
+}
+
+.miembro {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.miembro img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+section {
+     max-width: 1000px;
+    margin: 0 auto; 
+}
