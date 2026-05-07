@@ -7,11 +7,6 @@ h2 {
     rgb(98, 147, 146);
 }
 
-.ny {
-  color: rgb(220, 5, 145);
-  ;
-}
-
 .columnas {
   display: flex;
   justify-content: space-between;
