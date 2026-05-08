@@ -58,6 +58,11 @@ h3 {
 
 }
 
+.tarjeta:hover{
+    transform:scale(1.05);
+}
+
+
 button,
 input {
     color: rgb(2, 55, 50);
